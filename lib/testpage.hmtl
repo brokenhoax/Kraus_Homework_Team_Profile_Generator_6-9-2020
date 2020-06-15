@@ -1,0 +1,32 @@
+
+<div class="col-md-4">
+<div class="card">
+    <div class="inner">
+        <img class="card-img-top" src="./assets/Andrew Kraus.png" alt="No Employee Photo Available">
+        <div class="card-body">
+            <h5 class="team-member">Andrew Kraus</h5>
+            <p class="team-role">Engineer</p>
+            <p class="employee-id">Employee ID#: b</p>
+            <p class="email">s</p>
+            <p class="email">d</p>
+            <div class="row d-flex justify-content-around">
+                <div class="col">
+                    <a href="d">
+                    <i class="bump fa fa-facebook"></i>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="d">
+                    <i class="bump fa fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="s">
+                    <i class="bump fa fa-github-square"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
