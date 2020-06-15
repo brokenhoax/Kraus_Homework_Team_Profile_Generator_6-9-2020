@@ -1,0 +1,43 @@
+body {
+background-color: #4f2196;
+}
+
+.container {
+    padding-top: 100px;
+}
+
+.navbar {
+    height: 60px;
+    position: fixed;
+    width: 100%;    
+    z-index: 1;
+}
+
+.navbar-brand {
+
+}
+
+.card {
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border: none;
+}
+
+.bump {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.1)
+}
