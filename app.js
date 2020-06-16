@@ -1,8 +1,7 @@
 var inquirer = require('inquirer');
 var fs = require('fs');
 
-const newFile = require('./lib/htmlrender');
-const renderer = require('./lib/htmlrender');
+// const renderer = require('./lib/htmlrender');
 
   function getUserInput (data) {
   console.log('Please read each question carefully before submitting your response. Enjoy!')
@@ -115,10 +114,10 @@ const renderer = require('./lib/htmlrender');
       }
     }
   ])
-  .then(function(answers)  {
-      console.log('Here are your answers: ', answers); 
-      var readMeString = render();
-      // var readMeString = 
+//   .then(function(answers)  {
+//       console.log('Here are your answers: ', answers); 
+//       // var readMeString = render();
+//       var readMeString = 
 // `
 // <div class="col-md-4">
 // <div class="card">
@@ -151,12 +150,12 @@ const renderer = require('./lib/htmlrender');
 // </div>
 // </div>
 // `
-    fs.appendFile('./testpage.hmtl', readMeString, function (err) {
-      if (err) throw err;
-      console.log('Saved!');
-    });
+//     fs.appendFile('./testpage.hmtl', readMeString, function (err) {
+//       if (err) throw err;
+//       console.log('Saved!');
+//     });
 
-  })
+//   })
 }
 
 module.exports = {
